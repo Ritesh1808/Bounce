@@ -1,14 +1,21 @@
-# Raylib-CPP-Starter-Template-for-VSCODE-V2
-Raylib C++ Starter Template for Visual Studio Code on Windows.
-This demo project contains a bouncing ball raylib example program.
-It works with raylib version 5.0. Tested on both Windows 10 and Windows 11.
+[Bounce]
 
-# How to use this template
-1. Double click on the main.code-workspace file. This will open the template in VS Code.
-2. From the Explorer Window of VS Code navigate to the src folder and double click on the main.cpp file.
-3. Press F5 on the keyboard to compile and run the program.
+A simple 2D game developed using the Raylib library. This game is a personal project aimed at learning the fundamentals of game development, including graphics, user input, and game logic.
+Game Overview
+    Engine: Raylib (C-based game development library)
+    Platform: [Windows]
+    Programming Language: C
 
-# What's changed
-The template now uses folders for better organizion of the files. So, all the source code now lives in the src folder.
 
-# Video Tutorial
+
+INSTALLATION
+1. Download the packaged version from the provided link.
+2. Extract the files (.zip /.rar).
+3. run the executable file(.exe).
+
+
+
+###This project is the personal project and is still under development . Future Updates may include:
+1.Expanded maps and more interactive elements.
+2.Improved AI and gameplay mechanics.
+3.Optimization for the wide range of devices.
