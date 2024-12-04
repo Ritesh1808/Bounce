@@ -1,7 +1,9 @@
 [Bounce]
 
 A simple 2D game developed using the Raylib library. This game is a personal project aimed at learning the fundamentals of game development, including graphics, user input, and game logic.
-Game Overview
+
+
+GAME OVERVIEW
     Engine: Raylib (C-based game development library)
     Platform: [Windows]
     Programming Language: C
