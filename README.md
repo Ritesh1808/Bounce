@@ -4,9 +4,9 @@ A simple 2D game developed using the Raylib library. This game is a personal pro
 
 
 GAME OVERVIEW
-    Engine: Raylib (C-based game development library)
-    Platform: [Windows]
-    Programming Language: C
+    1. Engine: Raylib (C-based game development library)
+    2. Platform: [Windows]
+    3. Programming Language: C
 
 
 
