@@ -33,7 +33,7 @@ int ball_on_platform( Ball ball, Platform platforms[],int count)
     for (int i = 0; i < count; i++)
     {
        Platform platform = platforms[i];
-       Rectangle ball_rec = {.x = ball.x- ball.size +20 ,
+       Rectangle ball_rec = {.x = ball.x- ball.size +10 ,
                               .y = ball.y + ball.size/2 ,
                               .width = ball.size * 2  ,
                               .height = ball.size 
@@ -52,7 +52,7 @@ int ball_on_platform( Ball ball, Platform platforms[],int count)
         if( CheckCollisionRecs(ball_rec,platform_rec) )
         {
           return true;
-        }else if (ball.y > 1085)
+        }else if (ball.y > 1005)
         {
             return true;
         }
@@ -170,13 +170,15 @@ int main()
     DrawCircle(ball.x,ball.y,ball.size,GREEN);
    
      }
-    int ball_hits= ball_on_platform(ball,platforms ,platform_count );
+        int ball_hits= ball_on_platform(ball,platforms ,platform_count );
     if (ball_hits == true)
     {
         
         ball.x = 0;
         ball.y = 0;
         ball.velocity=0;
+
+
 
     }
 
